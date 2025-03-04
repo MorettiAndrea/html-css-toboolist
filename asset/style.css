@@ -2,15 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 500px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 /* setting principali */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* utility */
 .editorial {
   background-color: #4da7e1;
   border-radius: 70px;
+  border-color: transparent;
+  color: white;
 }
-/* utility */
+.check {
+  border-color: #00ff00;
+  background-color: white;
+  color: #00ff00;
+  border: 10px;
+  border-radius: 50%;
+  display: inline;
+}
+
+/* /utility */
 
 /* inizio header */
 .header-logo {
@@ -25,6 +40,7 @@
   font-size: 40px;
   font-weight: 600;
   background-color: white;
+  display: inline-block;
 }
 /* /header */
 
@@ -47,4 +63,5 @@ main {
 /* /bottoni */
 
 .prima-parte-menu {
+  margin-bottom: 20px;
 }
