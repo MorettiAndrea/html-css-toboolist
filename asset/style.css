@@ -2,4 +2,42 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 500px;
+}
+/* setting principali */
+
+/* inizio header */
+.header-logo {
+  max-width: 500px;
+  margin: 0;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+.titolo-principale {
+  font-size: 40px;
+  font-weight: 600;
+  background-color: white;
+}
+/* /fine header */
+
+/* bottoni */
+.bottoni {
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+.primo-bottone {
+  background-color: #46abea;
+  color: white;
+}
+.secondo-bottone {
+  color: #808080;
+}
+/* /bottoni */
+.freccia-giu {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
 }
