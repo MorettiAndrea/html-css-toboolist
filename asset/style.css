@@ -7,13 +7,16 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 80%;
   margin: auto 0;
+  background-color: #f6f8fa;
 }
 
 main {
   color: #4a4a4c;
-  margin-left: 200px;
+  max-width: 60%;
+  margin: 0 auto;
+  background-color: white;
+  padding-left: 50px;
 }
 
 /* utility */
@@ -57,6 +60,8 @@ main {
   color: white;
 }
 /* /tasti da riutilizzare */
+
+/* cross-check da riutilizzare */
 .check {
   font-size: 15px;
   border-color: #c4eee0;
@@ -75,15 +80,18 @@ main {
   border-radius: 50%;
   display: inline;
 }
+/* /cross-check da riutilizzare */
 
 /* /utility */
 
 /* inizio header */
 .header-logo {
   margin: 0;
-  margin-left: 20px;
+  padding: 20px;
   margin-bottom: 50px;
+  padding-right: 2000px;
   background-color: white;
+  display: inline-block;
 }
 
 .titolo-principale {
@@ -91,6 +99,8 @@ main {
   font-weight: 600;
   background-color: white;
   display: inline-block;
+  display: flex;
+  align-self: center;
 }
 /* /header */
 
