@@ -1,26 +1,77 @@
+/* setting principali */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* setting principali */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 80%;
+  margin: auto 0;
+}
+
+main {
+  color: #4a4a4c;
+  margin-left: 200px;
 }
 
 /* utility */
+
+/* tasti da riutilizzare */
+
 .editorial {
   background-color: #4da7e1;
   border-radius: 70px;
   border-color: transparent;
   color: white;
 }
+.q1-goals {
+  background-color: #9c73e2;
+  border-radius: 70px;
+  border-color: transparent;
+  color: white;
+}
+.recruting {
+  background-color: #5cc8aa;
+  border-radius: 70px;
+  border-color: transparent;
+  color: white;
+}
+.mobile {
+  background-color: #f7a031;
+  border-radius: 70px;
+  border-color: transparent;
+  color: white;
+}
+.website {
+  background-color: #d5689c;
+  border-radius: 70px;
+  border-color: transparent;
+  color: white;
+}
+.sales {
+  background-color: #a7c21f;
+  border-radius: 70px;
+  border-color: transparent;
+  color: white;
+}
+/* /tasti da riutilizzare */
 .check {
-  border-color: #00ff00;
+  font-size: 15px;
+  border-color: #c4eee0;
   background-color: white;
-  color: #00ff00;
-  border: 10px;
+  color: #c4eee0;
+  border: 1px solid;
+  border-radius: 50%;
+  display: inline;
+}
+.cross {
+  font-size: 15px;
+  border-color: #c09a99;
+  background-color: white;
+  color: #c09a99;
+  border: 1px solid;
   border-radius: 50%;
   display: inline;
 }
@@ -29,7 +80,6 @@ body {
 
 /* inizio header */
 .header-logo {
-  max-width: 500px;
   margin: 0;
   margin-left: 20px;
   margin-bottom: 50px;
@@ -43,11 +93,6 @@ body {
   display: inline-block;
 }
 /* /header */
-
-main {
-  color: #4a4a4c;
-  margin-left: 200px;
-}
 
 /* bottoni */
 .bottoni {
