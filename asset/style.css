@@ -9,6 +9,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: auto 0;
   background-color: #f6f8fa;
+  font-weight: bold;
 }
 
 main {
@@ -19,6 +20,9 @@ main {
   padding-left: 50px;
 }
 
+main.h3 {
+  font-size: large;
+}
 /* utility */
 
 /* tasti da riutilizzare */
@@ -27,60 +31,74 @@ main {
   background-color: #4da7e1;
   border-radius: 70px;
   border-color: transparent;
+  padding: 3px;
   color: white;
 }
 .q1-goals {
   background-color: #9c73e2;
   border-radius: 70px;
   border-color: transparent;
+  padding: 3px;
   color: white;
 }
 .recruting {
   background-color: #5cc8aa;
   border-radius: 70px;
+  padding: 3px;
   border-color: transparent;
   color: white;
 }
 .mobile {
   background-color: #f7a031;
   border-radius: 70px;
+  padding: 3px;
   border-color: transparent;
   color: white;
 }
 .website {
   background-color: #d5689c;
   border-radius: 70px;
+  padding: 3px;
   border-color: transparent;
   color: white;
 }
 .sales {
   background-color: #a7c21f;
   border-radius: 70px;
+  padding: 3px;
   border-color: transparent;
   color: white;
 }
 /* /tasti da riutilizzare */
 
-/* cross-check da riutilizzare */
+/* simboli da riutilizzare */
 .check {
-  font-size: 15px;
   border-color: #c4eee0;
   background-color: white;
   color: #c4eee0;
-  border: 1px solid;
+  border: 2px solid;
+  padding: 1px;
   border-radius: 50%;
   display: inline;
 }
 .cross {
-  font-size: 15px;
   border-color: #c09a99;
   background-color: white;
+  padding: 1px;
   color: #c09a99;
-  border: 1px solid;
+  border: 2px solid;
   border-radius: 50%;
   display: inline;
 }
-/* /cross-check da riutilizzare */
+.freccia {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  display: inline-block;
+  border-top: 7px solid #484848;
+}
+/* /simboli da riutilizzare */
 
 /* /utility */
 
@@ -89,18 +107,17 @@ main {
   margin: 0;
   padding: 20px;
   margin-bottom: 50px;
-  padding-right: 2000px;
+  padding-right: 20px;
   background-color: white;
   display: inline-block;
+  width: 100%;
 }
 
 .titolo-principale {
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 800;
   background-color: white;
   display: inline-block;
-  display: flex;
-  align-self: center;
 }
 /* /header */
 
@@ -110,10 +127,12 @@ main {
 }
 .primo-bottone {
   background-color: #46abea;
+  padding: 3px;
   color: white;
 }
 .secondo-bottone {
   color: #808080;
+  padding: 3px;
 }
 /* /bottoni */
 
